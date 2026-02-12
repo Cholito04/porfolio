@@ -10,12 +10,12 @@ import Git from "../assets/Git.png";
 function Skills() {
   return (
     <div id="Skills" className=" py-32 lg:px-50 px-4 w-full text-white">
-      <div className=" mx-auto text-center flex flex-col">
+      <div className=" mx-auto text-center flex flex-col w-full">
         <h1 className=" lg:text-6xl md:text-5xl text-4xl font-bold py-4">
           Skills
         </h1>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 mt-12">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 mt-12 bg-neutral-800 p-10 rounded-4xl shadow-2xl">
           <Skill
             icon={<img src={Python} alt="python" className="w-16 h-16" />}
             label="Python"

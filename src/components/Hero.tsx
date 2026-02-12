@@ -1,7 +1,7 @@
 function Hero() {
   return (
-    <div id="Hero" className="w-full px-4 py-32 mx-auto text-white text-center">
-      <div className="mx-auto">
+    <div id="Hero" className="w-full px-4 py-40 mx-auto text-white text-center">
+      <div className="mx-auto max-w-310 bg-neutral-800 p-20 rounded-4xl shadow-2xl">
         <h1 className=" lg:text-6xl md:text-5xl text-4xl font-extrabold tracking-tight">
           Mauricio Mancera-Bohorquez
         </h1>
