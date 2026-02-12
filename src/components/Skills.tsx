@@ -9,9 +9,9 @@ import Git from "../assets/Git.png";
 
 function Skills() {
   return (
-    <div id="Skills" className=" py-32 px-4 w-full text-white">
-      <div className="w-full mx-auto text-center flex flex-col">
-        <h1 className="border-b lg:text-6xl md:text-5xl text-4xl font-bold py-4">
+    <div id="Skills" className=" py-32 md:px-50 px-4 w-full text-white">
+      <div className=" mx-auto text-center flex flex-col">
+        <h1 className=" lg:text-6xl md:text-5xl text-4xl font-bold py-4">
           Skills
         </h1>
 
@@ -58,7 +58,7 @@ function Skill({ icon, label }: { icon: React.ReactNode; label: string }) {
   return (
     <div
       className="flex flex-col items-center gap-2
-                    hover:scale-110 transition duration-300"
+                    md:hover:scale-110 transition duration-300"
     >
       {icon}
       <p className="text-sm text-gray-300">{label}</p>
