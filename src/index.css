@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+body {
+    /* Fallback solid color for very old browsers */
+    background-color: #201e1b; 
+    /* The gradient itself */
+    background-image: radial-gradient(#222b3a, #121318);
+}
