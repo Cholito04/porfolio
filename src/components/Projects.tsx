@@ -2,9 +2,14 @@ import { FaGithubSquare } from "react-icons/fa";
 
 function Projects() {
   return (
-    <div className=" w-full py-16 px-4 text-white">
+    <div
+      id="Projects"
+      className=" w-full py-32 px-4 text-white bg-repeat-round"
+    >
       <div className="max-w-310 -mt-10 w-full mx-auto text-center justify-center lg:px-1 px-15">
-        <h1 className="md:text-5xl text-4xl font-bold md:py-4">Projects</h1>
+        <h1 className="lg:text-6xl md:text-5xl text-4xl font-bold md:py-4">
+          Projects
+        </h1>
         <div className="w-full py-4 max-w-310 mx-auto grid lg:grid-cols-3 gap-8">
           {/* project 1 card */}
 
