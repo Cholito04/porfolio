@@ -9,7 +9,7 @@ import Git from "../assets/Git.png";
 
 function Skills() {
   return (
-    <div id="Skills" className=" py-32 md:px-50 px-4 w-full text-white">
+    <div id="Skills" className=" py-32 lg:px-50 px-4 w-full text-white">
       <div className=" mx-auto text-center flex flex-col">
         <h1 className=" lg:text-6xl md:text-5xl text-4xl font-bold py-4">
           Skills
