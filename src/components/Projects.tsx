@@ -10,7 +10,7 @@ function Projects() {
         <h1 className="lg:text-6xl md:text-5xl text-4xl font-bold md:py-4">
           Projects
         </h1>
-        <div className="w-full py-4 lg:max-w-310 max-w-130 mx-auto grid lg:grid-cols-3 gap-8">
+        <div className="w-full py-10 lg:max-w-310 max-w-130 mx-auto grid lg:grid-cols-3 gap-8">
           {/* project 1 card */}
 
           <div className="bg-sky-950 w-full shadow-xl flex flex-col p-4 my-4 rounded-2xl md:hover:scale-105 duration-300">
