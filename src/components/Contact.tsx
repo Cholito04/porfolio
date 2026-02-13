@@ -37,7 +37,7 @@ function Contact() {
           href="mailto:mauriciomancerab@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-lg hover:text-sky-500 transition bg-neutral-700 p-3 rounded-full md:hover:scale-120 duration-300"
+          className="text-lg hover:text-sky-500 transition rounded-full md:hover:scale-120 duration-300"
         >
           Send Email
         </a>
