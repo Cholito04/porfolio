@@ -11,7 +11,7 @@ function Skills() {
   return (
     <div id="Skills" className=" py-32 lg:px-50 px-4 w-full text-white">
       <div className=" mx-auto text-center flex flex-col w-full">
-        <h1 className=" lg:text-6xl md:text-5xl text-4xl font-bold py-4">
+        <h1 className=" lg:text-6xl md:text-5xl text-3xl font-extrabold tracking-tight py-4">
           Skills
         </h1>
 

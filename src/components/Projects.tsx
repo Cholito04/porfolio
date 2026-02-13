@@ -7,14 +7,14 @@ function Projects() {
       className=" w-full py-16 px-4 text-white bg-repeat-round "
     >
       <div className="max-w-310 -mt-10 w-full mx-auto text-center justify-center lg:px-1">
-        <h1 className="lg:text-6xl md:text-5xl text-4xl font-bold md:py-4">
+        <h1 className="lg:text-6xl md:text-5xl text-3xl font-extrabold tracking-tight md:py-4">
           Projects
         </h1>
         <div className="w-full py-10 lg:max-w-310 max-w-130 mx-auto grid lg:grid-cols-3 gap-8">
           {/* project 1 card */}
 
           <div className="bg-sky-950 w-full shadow-xl flex flex-col p-4 my-4 rounded-2xl md:hover:scale-105 duration-300">
-            <h2 className="text-3xl font-bold text-center py-8">
+            <h2 className="lg:text-3xl text-2xl font-bold text-center py-8">
               First project
             </h2>
 
@@ -51,7 +51,7 @@ function Projects() {
 
           {/* project 2 card */}
           <div className=" w-full shadow-xl bg-neutral-800 flex flex-col p-4 md:my-0 my-8 rounded-2xl md:hover:scale-105 duration-300">
-            <h2 className="text-3xl font-bold text-center py-8">
+            <h2 className=" lg:text-3xl text-2xl font-bold text-center py-8">
               Spotify Song Recommender
             </h2>
 
@@ -89,7 +89,7 @@ function Projects() {
 
           {/* project 3 card */}
           <div className=" w-full bg-sky-950 shadow-xl flex flex-col p-4 my-4 rounded-2xl md:hover:scale-105 duration-300">
-            <h2 className="text-3xl font-bold text-center py-8">
+            <h2 className=" lg:text-3xl text-2xl font-bold text-center py-8">
               Third project
             </h2>
 

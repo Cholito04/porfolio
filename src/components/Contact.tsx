@@ -4,7 +4,7 @@ import github from "../assets/GitHub.png";
 function Contact() {
   return (
     <div id="Contact" className="text-white py-16 w-full">
-      <div className="mx-auto w-full text-center lg:text-6xl md:text-5xl text-4xl font-bold p-16">
+      <div className="mx-auto w-full text-center lg:text-6xl md:text-5xl text-3xl font-extrabold tracking-tight p-16">
         <h1>Find Me</h1>
       </div>
 
