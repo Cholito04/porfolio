@@ -92,7 +92,8 @@ function Projects() {
                 />
               </a>
               <a
-                href="#"
+                href="https://music.mauriciomancera.dev"
+                target="_blank"
                 className="h-[60-px] px-6 py-3 rounded-md bg-neutral-700 hover:bg-neutral-500 transition"
               >
                 Demo
