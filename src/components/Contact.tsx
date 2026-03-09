@@ -1,5 +1,6 @@
 import Linkedin from "../assets/LinkedIn.png";
 import github from "../assets/GitHub.png";
+import { MdEmail } from "react-icons/md";
 
 function Contact() {
   return (
@@ -10,7 +11,7 @@ function Contact() {
 
       <div className=" max-w-220 mx-auto flex p-10 items-center justify-center w-full md:gap-40 gap-8 bg-sky-950 rounded-4xl shadow-2xl">
         <a
-          href="https://github.com/Cholito04/MusicRecommender"
+          href="https://github.com/Cholito04"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center justify-center"
@@ -18,7 +19,7 @@ function Contact() {
           <img
             src={github}
             alt="github"
-            className="w-16 h-16 md:hover:scale-120 duration-300 bg-white rounded-full ml-10"
+            className="w-16 h-16 md:hover:scale-120 duration-300 bg-white rounded-full"
           />
         </a>
         <a
@@ -39,7 +40,14 @@ function Contact() {
           rel="noopener noreferrer"
           className="text-lg hover:text-sky-500 transition rounded-full md:hover:scale-120 duration-300"
         >
-          Send Email
+          <div className="mx-auto flex flex-col items-center">
+            {" "}
+            <MdEmail
+              size={40}
+              className="hover:text-sky-500 md:hover:scale-120 duration-300 transition"
+            />
+            <p>Email Me</p>
+          </div>
         </a>
       </div>
     </div>

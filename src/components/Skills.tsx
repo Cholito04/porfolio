@@ -5,7 +5,7 @@ import React from "../assets/react.svg";
 import HTML from "../assets/HTML5.png";
 import TailWind from "../assets/Tailwind CSS.png";
 import FastAPI from "../assets/FastAPI.png";
-import Git from "../assets/Git.png";
+import SQL from "../assets/PostgresSQL.png";
 
 function Skills() {
   return (
@@ -45,8 +45,8 @@ function Skills() {
             label="C"
           />
           <Skill
-            icon={<img src={Git} alt="Git" className="w-16 h-16" />}
-            label="Git"
+            icon={<img src={SQL} alt="PostgresSQL" className="w-16 h-16" />}
+            label="PostgresSQL"
           />
         </div>
       </div>
