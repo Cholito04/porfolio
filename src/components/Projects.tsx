@@ -21,21 +21,17 @@ function Projects() {
             <p className="text-center text-xl font-light">
               Collaborated with a senior design team to develop a real-time
               autonomous shuttle visualization platform. Built a web-based
-              system capable of rendering live GPS localization, Lanelet2 road
-              networks, LiDAR-tracked objects, and dynamically generated routes
-              in both 2D and interactive 3D views.
+              system capable of rendering Map with real time GPS data and
+              dynamically rendered routes.
             </p>
 
             <div className="text-center text-sm">
               <p className="py-2 border-b mx-8 mt-8">
                 Developed with ROS1, Python, and Three.js
               </p>
+              <p className="py-2 border-b mx-8"> Interactive 2D and 3D modes</p>
               <p className="py-2 border-b mx-8">
-                {" "}
-                Interactive 2D top-down and 3D visualization modes
-              </p>
-              <p className="py-2 border-b mx-8">
-                Designed custom routing UI using WMU-inspired styling
+                Custom routing UI using WMU-inspired styling
               </p>
               <p className="py-2 border-b mx-8">
                 Integrated live GPS and LiDAR perception data for real-time
@@ -53,12 +49,6 @@ function Projects() {
                   className="hover:scale-120 duration-300"
                   size={60}
                 />
-              </a>
-              <a
-                href="https://mauriciomancera.dev"
-                className="h-[60-px] px-6 py-3 rounded-md bg-neutral-800 hover:bg-neutral-700 transition"
-              >
-                Demo
               </a>
             </div>
           </div>
