@@ -19,26 +19,27 @@ function Projects() {
             </h2>
 
             <p className="text-center text-xl font-light">
-              Collaborated with my senior design team to build a real-time web
-              visualization system for an autonomous campus shuttle, rendering
-              live GPS position, Lanelet2 road maps, and planned routes in both
-              2D top-down and 3D perspective using Three.js and a Python/ROS
-              HTTP bridge.
+              Collaborated with a senior design team to develop a real-time
+              autonomous shuttle visualization platform. Built a web-based
+              system capable of rendering live GPS localization, Lanelet2 road
+              networks, LiDAR-tracked objects, and dynamically generated routes
+              in both 2D and interactive 3D views.
             </p>
 
             <div className="text-center text-sm">
               <p className="py-2 border-b mx-8 mt-8">
-                Built using Ros1 and Three.js
+                Developed with ROS1, Python, and Three.js
               </p>
               <p className="py-2 border-b mx-8">
                 {" "}
-                2D top-down and 3D perspective
+                Interactive 2D top-down and 3D visualization modes
               </p>
               <p className="py-2 border-b mx-8">
-                custom user interface to choose routes using WMU color scheme
+                Designed custom routing UI using WMU-inspired styling
               </p>
               <p className="py-2 border-b mx-8">
-                Uses live data from GPS and LiDAR to show live monment on screen
+                Integrated live GPS and LiDAR perception data for real-time
+                vehicle and object visualization
               </p>
             </div>
 
