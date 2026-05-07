@@ -15,25 +15,30 @@ function Projects() {
 
           <div className="bg-sky-950 w-full shadow-xl flex flex-col p-4 my-4 rounded-2xl md:hover:scale-105 duration-300">
             <h2 className="lg:text-3xl text-2xl font-bold text-center py-8">
-              This Portfolio!
+              Autonomous Shuttle Visualization System
             </h2>
 
             <p className="text-center text-xl font-light">
-              Built a responsive personal portfolio to showcase projects and
-              skills. Designed and deployed end to end using React, Tailwind,
-              and Vercel.
+              Collaborated with my senior design team to build a real-time web
+              visualization system for an autonomous campus shuttle, rendering
+              live GPS position, Lanelet2 road maps, and planned routes in both
+              2D top-down and 3D perspective using Three.js and a Python/ROS
+              HTTP bridge.
             </p>
 
             <div className="text-center text-sm">
               <p className="py-2 border-b mx-8 mt-8">
-                Built using react and tailwind
-              </p>
-              <p className="py-2 border-b mx-8">hosted on vercel</p>
-              <p className="py-2 border-b mx-8">
-                custom domain: mauriciomancera.dev
+                Built using Ros1 and Three.js
               </p>
               <p className="py-2 border-b mx-8">
-                Responsive across mobile and desktop
+                {" "}
+                2D top-down and 3D perspective
+              </p>
+              <p className="py-2 border-b mx-8">
+                custom user interface to choose routes using WMU color scheme
+              </p>
+              <p className="py-2 border-b mx-8">
+                Uses live data from GPS and LiDAR to show live monment on screen
               </p>
             </div>
 
