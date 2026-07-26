@@ -2,7 +2,7 @@ import { Link } from "react-scroll";
 
 function Navbar() {
   return (
-    <div className="fixed md:top-90 md:left-0 text-white backdrop-blur-md bg-sky-950/80 md:rounded-xl rounded-b-3xl md:w-3 md:h-64 h-15 w-full z-50">
+    <div className="fixed md:top-90 md:left-0 text-white backdrop-blur-md bg-sky-950/80 md:rounded-xl rounded-b-3xl md:w-3 md:h-80 h-15 w-full z-50">
       <div className="flex md:flex-col justify-center gap-8 text-xl md:p-6 p-3">
         {" "}
         <Link
@@ -13,6 +13,15 @@ function Navbar() {
         >
           {" "}
           Home
+        </Link>
+        <Link
+          to="Freelance"
+          smooth={true}
+          duration={500}
+          className="cursor-pointer hover:text-sky-500"
+        >
+          {" "}
+          Freelance
         </Link>
         <Link
           to="Projects"
